@@ -1,0 +1,150 @@
+@media screen and (max-width: 1550px) {
+	header {
+		padding: 30px 17% 60px 17%;
+	}
+	main {
+		padding: 50px 17%;
+	}
+}
+
+@media screen and (max-width: 1390px) {
+	header {
+		padding: 30px 10% 60px 10%;
+	}
+	main {
+		padding: 50px 10%;
+	}
+}
+
+@media screen and (max-width: 1160px) {
+	p {
+		text-align: center;
+	}
+	main {
+		display: flex;
+		justify-content: center;
+		align-content: flex-start;
+		background-size: 0%;
+		padding: 0 10%;
+		height: auto;
+	}
+	
+	section {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	
+	.illustration {
+		padding: 0 10%;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: 0.5s all ease-out;
+	}
+	
+	#text {
+		display: flex;
+		flex-direction: column;
+		margin-top: 50px;
+		align-items: center;
+	}
+	
+	.btn {
+		display: flex;
+		align-items: center;
+		text-align: center;
+	}
+	
+	.btn-arrow {
+		margin: 20px 0 0 0;
+		padding: 0;
+		width: 40px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	header{
+		display: flex;
+		padding: 30px 2% 10px 2%;
+		align-items: center;
+		flex-direction: column;
+		gap: 20px;
+		transition: 0.3s all ease-out;
+	}
+	
+	main {
+		display: flex;
+		justify-content: center;
+		align-content: flex-start;
+		background-size: 0%;
+		padding: 0 2%;
+		height: auto;
+	}
+	
+	.illustration {
+		padding: 0 20%;
+	}
+	
+}
+
+@media screen and (max-width: 520px) {
+	header {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	
+	.imagem-menu{
+		display: flex;
+		width: 20px;
+		height: 20px;
+		fill: #fff;
+		cursor: pointer;
+	}
+	
+	ul {display: none;}
+	
+	h1 {font-size: 40px;}
+	
+	h2 {font-size: 24px;}
+	
+	p {margin-top: 30px;}
+	
+	.btn {margin-top: 30px;}
+	
+	.btn-arrow {margin-top: 30px;}
+	
+}
+
+@media screen and (max-width: 385px) {
+	header {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	
+	.imagem-menu{
+		display: flex;
+		width: 20px;
+		height: 20px;
+		fill: #fff;
+	}
+	
+	ul {display: none;}
+	
+	h1 {font-size: 32px;}
+	
+	h2 {font-size: 16px;}
+	
+	p {
+		font-size: 12px;
+		margin-top: 20px;
+	}
+	
+	.btn {margin-top: 30px;}
+	
+	.btn-arrow {margin-top: 30px;}
+	
+}
