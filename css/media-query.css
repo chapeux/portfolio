@@ -5,6 +5,14 @@
 	main {
 		padding: 50px 17%;
 	}
+	
+	.conteudo-projetos-cards {
+		border: 30px #2F2C4B solid;
+		gap: 38px;
+	}
+	
+	.card {justify-content: center;}
+	
 }
 
 @media screen and (max-width: 1390px) {
@@ -17,13 +25,14 @@
 }
 
 @media screen and (max-width: 1160px) {
-	p {
+	.bem-vindo {
 		text-align: center;
 	}
 	main {
 		display: flex;
 		justify-content: center;
-		align-content: flex-start;
+		align-content: center;
+		flex-direction: column;
 		background-size: 0%;
 		padding: 0 10%;
 		height: auto;
@@ -32,6 +41,7 @@
 	section {
 		display: flex;
 		flex-direction: column-reverse;
+		align-items: center;
 	}
 	
 	.illustration {
@@ -61,6 +71,38 @@
 		margin: 20px 0 0 0;
 		padding: 0;
 		width: 40px;
+	}
+	
+	.conteudo-projetos {margin: 65px 0;}
+	
+	h4 {
+		text-align: center;
+		padding-top: 0;
+	}
+	
+	.card-descricao {
+		font-size: 14px;
+	}
+	
+}
+
+@media screen and (max-width: 950px) {
+	
+	.card {
+		text-align: center;
+		align-items: center;
+		width: 90%
+	}
+	
+	.conteudo-projetos {
+		align-items: center;
+	}
+	
+	.conteudo-projetos-cards {
+		width: 80%;
+		align-items: center;
+		flex-direction: column;
+		gap: 45px;
 	}
 }
 
@@ -110,7 +152,7 @@
 	
 	h2 {font-size: 24px;}
 	
-	p {margin-top: 30px;}
+	.bem-vindo {margin-top: 30px;}
 	
 	.btn {margin-top: 30px;}
 	
@@ -138,7 +180,7 @@
 	
 	h2 {font-size: 16px;}
 	
-	p {
+	.bem-vindo {
 		font-size: 12px;
 		margin-top: 20px;
 	}
