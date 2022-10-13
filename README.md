@@ -2,9 +2,9 @@
 
 Site em desenvolvimento, [Acompanhe o desenvolvimento aqui!](https://chapeux.github.io/portfolio/)
 
-| :placard: Vitrine.Dev |     |
+| :label: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Portfólio*
+| :sparkles: Nome        | **Portfólio**
 | :label: Tecnologias | html, css
 | :rocket: URL         | https://chapeux.github.io/portfolio/
 
