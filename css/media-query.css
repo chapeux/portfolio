@@ -13,6 +13,7 @@
 	
 	.card {justify-content: center;}
 	
+	.sociais {align-items: flex-start;}
 }
 
 @media screen and (max-width: 1390px) {
@@ -22,6 +23,8 @@
 	main {
 		padding: 50px 10%;
 	}
+	
+	.sociais {align-items: flex-start;}
 }
 
 @media screen and (max-width: 1160px) {
@@ -84,6 +87,7 @@
 		font-size: 14px;
 	}
 	
+	.sociais {align-items: flex-start;}
 }
 
 @media screen and (max-width: 950px) {
@@ -104,6 +108,8 @@
 		flex-direction: column;
 		gap: 45px;
 	}
+	
+	.sociais {align-items: flex-start;}
 }
 
 @media screen and (max-width: 750px) {
@@ -128,6 +134,8 @@
 	.illustration {
 		padding: 0 20%;
 	}
+	
+	.sociais {align-items: flex-start;}
 	
 }
 
